@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Shortener</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@400;700&family=Poppins:wght@300;500&family=Sen:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <p>Smaller Url</p>
+        <div class="header-container__sponsorship">
+          <p>Sponsorship</p>
+          <img src="./images/sponsorship.svg" />
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <p class="hero-title">Create Short Links!</p>
+      <p class="hero-description">
+        smallURL is a free service that allows you to shorten your URLs and
+        generate compact links. Upgrade to a premium account to enjoy unlimited
+        URL shortening capabilities, as well as a range of additional features
+        designed to help drive more customers. Get Started for free
+      </p>
+    </section>
+
+    <section class="hero-input">
+      <form>
+        <div class="form-input-container">
+          <img src="./images/link.svg" />
+          <input
+            type="text"
+            id="url"
+            name="url"
+            placeholder="Paste link to shorten it"
+          />
+        </div>
+        <div class="result">
+            <!-- <p>Your shortened URL is:</p> -->
+            <p id="short-url"></p>
+          </div>
+
+        <button type="submit">Shorten</button>
+      </form>
+    </section>
+
+    <section class="little-title">
+      <p>A short link, limitless Possibilites</p>
+      <p>
+        with advanced intelligent link shortening service, you can customize
+        your links and share them easily
+      </p>
+    </section>
+
+    <section class="grid">
+        <div class="grid-card">
+            <img src="./images/speed.svg"/>
+            <p class="text-1">Speed</p>
+            <p class="text-2">ShortURL is easy and fast, enter the long link to get your shortened link</p>
+        </div>
+        <div class="grid-card">
+            <img src="./images/any-link.svg"/>
+            <p class="text-1">Any Link</p>
+            <p class="text-2">Use any link, no matter what size, ShortURL always shortens</p>
+        </div>
+        <div class="grid-card">
+            <img src="./images/mobile.svg"/>
+            <p class="text-1">Secured</p>
+            <p class="text-2">It is fast and secure, our service have HTTPS protocol and data encryption</p>
+        </div>
+        <div class="grid-card">
+            <img src="./images/spam-free.svg"/>
+            <p class="text-1">Spam free</p>
+            <p class="text-2">All links that try to disseminate spam, viruses and malware are deleted</p>
+        </div>
+        <div class="grid-card">
+            <img src="./images/compatibility.svg"/>
+            <p class="text-1">Compatibility</p>
+            <p class="text-2">Compatible with smartphones, tablets and desktop</p>
+        </div>
+        <div class="grid-card">
+            <img src="./images/support.svg"/>
+            <p class="text-1">Support</p>
+            <p class="text-2">we really care about your success in using short links, so you always get answers</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            Build  Custom Audiences from<span> every URL</span>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+.header-container p {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #2d3134;
+}
+.header-container__sponsorship {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0px 24px 19px;
+  border: 1.4px solid #f66f4d;
+  border-radius: 33px;
+  box-sizing: border-box;
+}
+.header-container__sponsorship p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 16px;
+  text-align: center;
+
+  color: #f66f4d;
+}
+.header-container__sponsorship img {
+  margin-right: 34px;
+  margin-left: 10px;
+}
+
+/* Hero */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 147px;
+}
+.hero-title {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 5.25rem;
+  line-height: 5.375rem;
+  color: #2d3134;
+}
+.hero-description {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75em;
+  text-align: center;
+  color: #5b5f62;
+  max-width: 935px;
+  margin-bottom: 147px;
+}
+
+/* Hero input */
+.hero-input {
+  margin-bottom: 207px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form .form-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 64px;
+}
+form .form-input-container input {
+  border: none;
+  width: 60%;
+  height: 102px;
+  background: rgba(132, 132, 132, 0.06);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding-left: 150px;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+::-webkit-input-placeholder {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  color: #000000;
+}
+form img {
+  position: absolute;
+  left: 20%;
+}
+form button {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  gap: 10px;
+  width: 248px;
+  height: 88px;
+  background: #212121;
+  box-shadow: 0px 4px 32px rgba(223, 195, 124, 0.25);
+  border-radius: 15px;
+  font-family: "Poppins";
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 3.375;
+}
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  margin-bottom: 20px;
+  color: #1e1983;
+}
+
+/* Little title */
+.little-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 56px;
+}
+.little-title p:nth-child(1) {
+  font-family: "Outfit";
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #1e1983;
+  margin-bottom: 16px;
+}
+.little-title p:nth-child(2) {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: rgba(28, 28, 30, 0.72);
+  max-width: 558px;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(365px, 1fr));
+  padding: 0 150px;
+  margin-bottom: 631px;
+}
+.grid-card {
+  place-self: center;
+  padding: 32px;
+  width: 364px;
+  height: 268px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.grid-card img {
+  margin-bottom: 32px;
+}
+.text-1 {
+  margin-bottom: 16px;
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  color: #1e1983;
+}
+.text-2 {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: rgba(28, 28, 30, 0.72);
+  /* max-width: 300px; */
+}
+
+/* Footer */
+footer {
+  background: #292685;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  padding: 154px 223px 140px 138px;
+}
+footer p {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5.25rem;
+  line-height: 5.375rem;
+  color: #ffffff;
+}
+footer p span {
+  color: #e94057;
+}
